@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .topbox3{
     position: absolute;
     margin-top: 0px;
@@ -30,6 +31,8 @@
 color: gray;
 }
 
+
+
 body{
     font-family: 'EB Garamond', serif;
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
@@ -38,10 +41,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     margin-top: auto;
-    
-    
-    
-}
+    }
+
 #cont1{
     
     display: flex;
@@ -125,3 +126,5 @@ body{
     width: 550px;
     padding-left: 60px;
 }
+
+
