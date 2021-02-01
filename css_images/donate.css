@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    overflow: hidden;
+}
+
+header{
+    background-image: url('lilkids.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.clearfix :after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+
+.box3{ max-width: 1180px;
+    margin: 0 auto;
+    float:left;
+    border:1px solid none;}
+
+
+    
+
+.topbox3{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 345px;
+        top: 5%;
+        left:30%
+     }
+
+.topbox3 li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+
+    }
+
+.topbox3 li a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        font-weight: 100;
+    }
+
+.topbox3 li a:hover{
+    color: gray;
+}
+
+.main1{
+    width: 600px;
+    height: 290px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info{
+    padding-top: 20px;
+    text-align: justify;
+    padding-right:30px ;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+
+.donate{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-style: double;
+    transition: background-color 0.2s; border : 0.2s, color 0.2;
+}
+
+.donate-now{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+.donate-now:hover{background-color:rgb(90, 88, 88);}

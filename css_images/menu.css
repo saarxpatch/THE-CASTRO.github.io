@@ -1,0 +1,262 @@
+body{
+    background-color: rgb(211, 199, 181);
+    
+    
+}
+
+
+.topbox4{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 345px;
+    top: 5%;
+    left:25%
+ }
+
+.topbox4 li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.topbox4 li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.topbox4 li a:hover{
+color: gray;
+}
+
+.container{
+    margin-top: 30px;
+}    
+
+.tea{
+    
+    width: 800px;
+    margin-left: 110px;
+    background-image: url(nathan-dumlao-pMW4jzELQCw-unsplash.jpg);
+    background-position: center, center;
+    background-size: cover;
+    color: white;
+    border: 5px solid rgb(91 67 47);
+    border-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: 'Zilla Slab', serif;
+    
+}
+.cbvg{
+    background-color: black;
+    opacity: 0.7;
+    width: 340px;
+    padding-left: 10px;
+    
+}
+.hbvg{
+    background-color: black;
+    opacity: 0.7;
+    width: 340px;
+    padding-left: 10px;
+}
+    
+
+    
+
+
+.tikka{
+    background-image: url(leo-roza-zNqArwc7Hh4-unsplash.jpg);
+    background-position: center, center;
+    background-size: cover;
+    font-family: 'Zilla Slab', serif;
+    width: 800px;
+    margin-top: 30px;
+    color: #fefefe;
+    border: 5px solid rgb(91 67 47);
+    border-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    margin-left: 110px;
+    
+}
+.strts{
+    background-color: black;
+    opacity: 0.7;
+    width: 325px;
+    padding-left: 10px;
+    
+}
+.food{
+    background-image: url(andrei-DZyF-0_oe4Y-unsplash.jpg);
+    background-position: center,center;
+    background-size:cover;
+    margin-left: 110px;
+    width: 800px;
+    color: #f7f2e9;
+    border-left: 5px solid rgb(91 67 47);
+    border-right: 5px solid rgb(91 67 47);
+    border-top: 5px solid rgb(91 67 47);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;    
+     
+    margin-top: 30px; 
+}
+.fmc{
+    background-color: black;
+    opacity: 0.7;
+    width: 340px;
+    padding-left: 10px;  
+}
+.nveg{
+    background-image: url(nathan-dumlao-IjovY65WQiE-unsplash.jpg);
+    background-position:center,center;
+    background-size: cover;
+    width: 800px;
+    margin-left: 110px;
+    widows: 1900px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    border-left:5px solid rgb(91 67 47);
+    border-right: 5px solid rgb(91 67 47);
+    border-bottom: 5px solid rgb(91 67 47);
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    
+}
+.nmc{
+    background-color: black;
+    opacity: 0.7;
+    width: 340px;
+    padding-left: 10px;
+}
+   
+
+.breads{
+    background-image: url(potato-stuffed-naan-vegan-20.jpg);
+    background-size:cover;
+    width: 800px;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    border: 5px solid rgb(91 67 47);
+    border-radius: 18px;
+    padding: 100px;
+    margin-left: 110px;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+   
+    margin-top: 30px;
+}
+.brds{
+    background-color: black;
+    opacity: 0.7;
+    width: 310px;
+    padding-left: 10px;
+}
+.ndls{
+    background-image: url(goodeats-yqr-DRZHzm-uAaM-unsplash.jpg);
+    background-size:cover;
+    width: 800px;
+    background-repeat: no-repeat;
+    color: #fffbf4;
+    border: 5px solid rgb(88 51 9);
+    border-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.nds{
+    background-color: black;
+    opacity: 0.7;
+    width: 310px;
+    padding-left: 10px;
+}
+.desrt{
+    background-image: url(abhishek-hajare-6hr5YZDjyHc-unsplash.jpg);
+    background-size:cover;
+    width: 800px;
+    background-repeat: no-repeat;
+    color: #fffbf4;
+    border: 5px solid rgb(91 67 47);
+    border-radius: 18px;
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 110px;
+    margin-top: 30px;  
+    margin-bottom: 40px;
+    background-position: center;
+}
+.des{
+    background-color: black;
+    opacity: 0.7;
+    width: 230px;
+    padding-left: 10px;
+}
+#h2b{
+    padding-left: 15px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #1d0f06;
+    border-radius: 3px;
+    width: 200px;
+}
+#h2s{padding-left: 12px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #1d0f06;
+    border-radius: 3px;
+    width: 170px;
+}
+#h2mc{padding-left: 12px;
+    opacity: 0.7;
+    color: white;
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #1d0f06;
+    border-radius: 3px;
+    width: 170px;
+}
+#h2br{padding-left: 12px;
+    opacity: 0.7;
+    color: rgb(48, 45, 45);
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #1d0f06;
+    border-radius: 3px;
+    width: 170px;
+}
+#h2n{padding-left: 12px;
+    opacity: 0.7;
+    color: white;
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #221f1d;
+    border-radius: 3px;
+    width: 170px;
+}
+#h2d{padding-left: 12px;
+    opacity: 0.7;
+    color: white;
+    font-family: 'Zilla Slab', serif;    
+    border: 2px solid #1d0f06;
+    border-radius: 3px;
+    width: 150px;
+}
+
+
+
+

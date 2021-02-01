@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-image: url(bgds.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+.container1{
+    padding: 20px auto;
+    margin-left: 100px;
+    margin-top: 30px ;
+}
+#hdesrt{
+    
+        font-size: 40px;
+        padding: 20px;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        width: 600px;
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    
+    }
+    .box{
+        border: 1px solid rgb(75, 42, 21);
+                width: 180px;
+                height: 180px;
+                margin: 20px;
+                display: inline-block;
+                border-radius: 10px;
+                background-repeat: no-repeat;
+               
+    }
+    #box1{
+        background-image: url(gulabjamun.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box2{
+        background-image: url(Hot-Fudge-Brownie-With-Ice-Cream.png);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #box3{
+        background-image: url(Tiramisu-6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box4{
+        background-image: url(bakalava.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box5{
+        background-image: url(hot-fudge-brownie.jpg);
+        background-size: cover;
+        background-position: center;
+}
+.buttons{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 10px;
+    
+ }
+ .btn{
+    background-color: white;
+    font-weight: bold;
+   
+    color: rgb(92, 92, 92);
+}
+ 
+ #b1{
+    
+     padding: 10px;
+     margin: 47px;
+     text-decoration: none;
+ }
+ #b2{
+    
+     padding: 10px;
+     margin: 75px;
+     text-decoration: none;
+    
+ }
+ #b3{
+     
+     padding: 10px;
+     margin: 58px;
+     text-decoration: none;
+    
+ }
+ #b4{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 80px;
+ }
+ #b5{
+     
+     padding: 10px;
+     margin: 31px;
+     text-decoration: none;
+ }
+ .btn1{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.btn1:hover{
+    border: none;
+    background-color: rgb(71, 67, 67);
+}
+
+#a1{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 60px;
+   text-decoration: none;
+  
+}
+#a2{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 66px;
+   text-decoration: none;
+  
+}
+#a3{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 48px;
+   text-decoration: none;
+  
+}
+#a4{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 69px;
+}
+#a5{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 45px;
+   text-decoration: none;
+}

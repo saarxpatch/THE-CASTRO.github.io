@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    overflow: hidden;
+}
+
+header{
+    background-image: url('pavbhaji.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.clearfix :after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+
+.box{ max-width: 1180px;
+    margin: 0 auto;
+    float:left;
+    border:1px solid none;}
+
+/*.logo{
+    margin-top: 0 auto;
+    margin-left: 20px;
+    height: 250px;
+   
+    float: left;
+}*/
+    
+
+.topbox{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 345px;
+        top: 5%;
+        left:30%
+     }
+
+.topbox li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+
+    }
+
+.topbox li a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        font-weight: 100;
+    }
+
+.topbox li a:hover{
+    color: gray;
+}
+
+.main{
+    width: 600px;
+    height: 190px;
+    padding-top: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.order{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-style: double;
+    transition: background-color 0.2s; border : 0.2s; color: 0.2;
+}
+
+.order-now{
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+.order-now:hover{background-color:rgb(90, 88, 88);}
+
+
+
+@media only screen and (max-width: 1180px){
+    .main{
+        width:100%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+}
+
+@media only screen and (max-width: 768px){
+    h1{font-size: 180%;}
+
+.topbox{display: none;}
+
+}
+
+

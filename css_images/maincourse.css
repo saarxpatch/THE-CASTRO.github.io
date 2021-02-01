@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-image: url(bgbvg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+.container1{
+    padding: 20px auto;
+    margin-left: 100px;
+    margin-top: 30px ;
+}
+
+#hvg{
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+
+}
+#hnveg{
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+
+}
+.box{
+    border: 2px solid rgb(75, 42, 21);
+            width: 180px;
+            height: 180px;
+            margin: 20px;
+            display: inline-block;
+            border-radius: 20px;
+           
+}
+#box1{
+    background-image: url(kadaipaneer.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+#box2{
+    background-image: url(paneerbuttermasala.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+#box3{
+    background-image: url(matarpaneer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background-image: url(Palak-Paneer-Recipe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box5{
+    background-image: url(reshmi-kaju-paneer-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box6{
+    background-image: url(Mix-Veg-masala-1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+#box7{
+    background-image: url(bhindi-masala-2.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+#box8{
+    background-image: url(malaikofta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box9{
+    background-image: url(Veg-Kofta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box10{
+    background-image: url(kaju\ curry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box11{
+    background-image: url(Dal-Tadka.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+#box12{
+    background-image: url(dalmakhai.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+#box13{
+    background-image: url(butter-chicken-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box14{
+    background-image: url(Kadai-Chicken.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box15{
+    background-image: url(bundelchicken.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box16{
+    background-image: url(Chicken_Changezi.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+#box17{
+    background-image: url(Chciken-Curry.jpg);
+    background-size: 100%;
+    background-position: center;
+
+}
+#box18{
+    background-image: url(muttonbhuna.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box19{
+    background-image: url(Mutton-Handi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box20{
+    background-image: url(muttoncurry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box21{
+    background-image: url(eggcurry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.buttons{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 10px;
+    
+ }
+ 
+ 
+ #b1{
+    
+     padding: 10px;
+     margin: 40px;
+     text-decoration: none;
+ }
+ #b2{
+    
+     padding: 10px;
+     margin: 30px;
+     text-decoration: none;
+    
+ }
+ #b3{
+     
+     padding: 10px;
+     margin: 40px;
+     text-decoration: none;
+    
+ }
+ #b4{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 58px;
+ }
+ #b5{
+     
+     padding: 10px;
+     margin: 46px;
+     text-decoration: none;
+ }
+ #b6{
+    
+     padding: 10px;
+     margin: 64px;
+     text-decoration: none;
+ }
+ #b7{
+    
+     padding: 10px;
+     margin: 50px;
+     text-decoration: none;
+    
+ }
+ #b8{
+     
+     padding: 10px;
+     margin: 52px;
+     text-decoration: none;
+    
+ }
+ #b9{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 69px;
+ }
+ #b10{
+     
+     padding: 10px;
+     margin: 48px;
+     text-decoration: none;
+ }
+ #b11{
+    
+     padding: 10px;
+     margin: 56px;
+     text-decoration: none;
+ }
+ #b12{
+    
+     padding: 10px;
+     margin: 59px;
+     text-decoration: none;
+    
+ }
+ #b13{
+     
+     padding: 10px;
+     margin: 42px;
+     text-decoration: none;
+    
+ }
+ #b14{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 47px;
+ }
+ #b15{
+     
+     padding: 10px;
+     margin: 10px;
+     text-decoration: none;
+ }
+ #b16{
+    
+     padding: 10px;
+     margin: 35px;
+     text-decoration: none;
+ }
+ #b17{
+    
+     padding: 10px;
+     margin: 48px;
+     text-decoration: none;
+    
+ }
+ #b18{
+     
+     padding: 10px;
+     margin: 42px;
+     text-decoration: none;
+    
+ }
+ #b19{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 47px;
+ }
+ #b20{
+     
+     padding: 10px;
+     margin: 49px;
+     text-decoration: none;
+ }
+ #b21{
+    
+    padding: 10px;
+    margin: 60px;
+    text-decoration: none;
+}
+ .buttonsa{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 40px;
+    
+ }
+ .btn{
+     background-color: white;
+     font-weight: bold;
+    
+     color: rgb(92, 92, 92);
+ }
+ .btn1{
+     background-color: black;
+     color: white;
+     font-size: 17px;
+     border-radius: 8px;
+ }
+ .btn1:hover{
+     border: none;
+     background-color: rgb(71, 67, 67);
+ }
+
+#a1{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 60px;
+    text-decoration: none;
+   
+}
+#a2{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 58px;
+    text-decoration: none;
+   
+}
+#a3{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 49px;
+    text-decoration: none;
+   
+}
+#a4{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 73px;
+}
+#a5{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 45px;
+    text-decoration: none;
+}
+
+#a6{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 25px;
+    text-decoration: none;
+   
+}
+#a7{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 92px;
+    text-decoration: none;
+   
+}
+#a8{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 26px;
+    text-decoration: none;
+   
+}
+#a9{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 94px;
+}
+#a10{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 22px;
+    text-decoration: none;
+}
+#a11{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 22px;
+    text-decoration: none;
+   
+}
+#a12{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 99px;
+    text-decoration: none;
+   
+}
+#a13{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 62px;
+    text-decoration: none;
+   
+}
+#a14{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 58px;
+}
+#a15{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 56px;
+    text-decoration: none;
+}
+
+#a16{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 66px;
+    text-decoration: none;
+   
+}
+#a17{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 61px;
+    text-decoration: none;
+   
+}
+#a18{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 26px;
+    text-decoration: none;
+   
+}
+#a19{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 86px;
+}
+#a20{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 38px;
+    text-decoration: none;
+}
+#a21{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 79px;
+    text-decoration: none;
+}

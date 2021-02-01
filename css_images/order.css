@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-image: url(adrien-olichon-1LSzt81Z9w0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    
+    
+    
+}
+#cont1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    
+}
+a{  
+    display: block;
+    text-transform: none;
+    padding: 13px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px rgb(255, 255, 255);
+    background: rgb(1, 7, 41);
+    font-size: 30px;
+    
+    
+}
+   .pulsate{ 
+    animation: pulsate 5s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: .5;
+    border: white 2px solid;
+    color: white;
+    
+}
+@-webkit-keyframes pulsate{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+a:hover{
+    color: rgb(5, 0, 0);
+    background-color: rgb(253, 253, 253);
+    border: none;
+}
+#title{
+    font-size: 40px;
+    padding: 30px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#b0{
+    width: 550px;
+    padding-left: 160px;
+}
+#b1{
+    width: 550px;
+    padding-left: 225px;
+}
+#b2{
+    width: 550px;
+    padding-left: 25px;
+}
+#b3{
+    width: 550px;
+    padding-left: 115px;
+}
+#b4{
+    width: 550px;
+    padding-left: 35px;
+}
+#b5{
+    width: 550px;
+    padding-left: 60px;
+}

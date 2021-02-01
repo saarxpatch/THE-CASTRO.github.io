@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-image: url(bgndls.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+.container1{
+    padding: 20px auto;
+    margin-left: 100px;
+    margin-top: 30px ;
+}
+#hdesrt{
+    
+        font-size: 40px;
+        padding: 20px;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        width: 280px;
+        border: 2px solid black;
+        border-radius: 20px;
+        
+    
+    }
+    .box{
+        border: 2px solid rgb(75, 42, 21);
+                width: 180px;
+                height: 180px;
+                margin: 35px;
+                display: inline-block;
+                border-radius: 20px;
+                background-repeat: no-repeat;
+               
+    }
+    #box1{
+        background-image: url(vegnoodles.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box2{
+        background-image: url(schezwannoodles.jpeg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #box3{
+        background-image: url(hakka-noodles.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box4{
+        background-image: url(mushroomnoodles.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+.buttons{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 10px;
+    
+ }
+ .btn{
+    background-color: white;
+    font-weight: bold;
+   
+    color: rgb(92, 92, 92);
+}
+ 
+ #b1{
+    
+     padding: 10px;
+     margin: 67px;
+     text-decoration: none;
+ }
+ #b2{
+    
+     padding: 10px;
+     margin: 52px;
+     text-decoration: none;
+    
+ }
+ #b3{
+     
+     padding: 10px;
+     margin: 44px;
+     text-decoration: none;
+    
+ }
+ #b4{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 50px;
+ }
+
+ .btn1{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.btn1:hover{
+    border: none;
+    background-color: rgb(71, 67, 67);
+}
+
+#a1{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 79px;
+   text-decoration: none;
+  
+}
+#a2{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 68px;
+   text-decoration: none;
+  
+}
+#a3{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 80px;
+   text-decoration: none;
+  
+}
+#a4{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 71px;
+}

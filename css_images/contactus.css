@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    overflow: hidden;
+}
+
+header{
+    background-image: url('telephone.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.clearfix :after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+/*.logo1{
+    margin-top: 0 auto;
+    margin-left: 20px;
+    height: 250px;
+   
+    float: left;
+}*/
+    
+
+.topbox1{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 345px;
+        top: 5%;
+        left:30%
+     }
+
+.topbox1 li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+
+    }
+
+.topbox1 li a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        font-weight: 100;
+    }
+
+.topbox1 li a:hover{
+    color: gray;
+}
+
+
+.contact{
+    position: relative;
+    min-height: 40vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .contents{
+    max-width: 1180px;
+    text-align: center;
+}
+.contact .contents h2{
+    color: whitesmoke;
+    text-align: center;
+}
+.kuchbhi{
+    display: inline;
+    position: relative;
+    color: rgb(188, 200, 238);
+    text-align: justify;
+    border: 2px solid rgb(38, 50, 75);
+
+}
+.bigboxx{
+    width: fit-content;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    top: 55%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: right;
+}
+
+.yourdetails{
+    width: 90%;
+    background-color:rgba(2, 22, 36, 0.363);
+    padding: 20px;
+}
+
+.bigboxx .inputinfo{
+    position: relative;
+    width: 100%;
+    margin-top: 10px; 
+}
+
+.yourdetails .inputinfo input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(8, 39, 39);
+    background-color: rgba(2, 22, 36, 0.363);
+}
+
+.yourdetails .inputinfo input:hover{
+    background-color: rgba(0, 128, 128, 0.397);
+}
+
+.yourdetails .inputinfo textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid rgb(8, 39, 39);
+    background-color: rgba(2, 22, 36, 0.363);
+}
+
+.yourdetails .inputinfo textarea:hover{
+    background-color: rgba(0, 128, 128, 0.397);
+}
+
+.yourdetails .inputinfo input[type="submit"]{
+    width: 100%;
+    color: whitesmoke;
+    background: teal;
+    border-radius: 2px;
+    border: none ;
+    cursor: pointer;
+
+}
+
+
+.bigboxx .contactme{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigboxx .contactme .boxx{
+    position: absolute;
+    padding: 20px 0;
+    display: flex;
+    
+    
+} 
+.bigboxx .contactme .boxx .icon{
+    min-width: 30px;
+    height: 30px;
+    background: rgb(248, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

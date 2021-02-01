@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+    background-image: url(bgbrds.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+.container1{
+    padding: 20px auto;
+    margin-left: 100px;
+    margin-top: 30px ;
+}
+#hbrds{
+    
+        font-size: 40px;
+        padding: 20px;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        width: 280px;
+        border: 2px solid black;
+        border-radius: 20px;
+        
+    
+    }
+    .box{
+        border: 2px solid rgb(75, 42, 21);
+                width: 180px;
+                height: 180px;
+                margin: 35px;
+                display: inline-block;
+                border-radius: 20px;
+                background-repeat: no-repeat;
+               
+    }
+    #box1{
+        background-image: url(rumali-roti.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box2{
+        background-image: url(tandoori-roti.jpg);
+        background-size: cover;
+        background-position: center;
+    
+    }
+    #box3{
+        background-image: url(tandooributter-roti.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box4{
+        background-image: url(plain-naan.png);
+        background-size: cover;
+        background-position: center;
+    }
+    #box5{
+        background-image: url(butternaan.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box6{
+        background-image: url(garlic-naan.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #box7{
+        background-image: url(garlicbutternaan.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+.buttons{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 10px;
+    
+ }
+ .btn{
+    background-color: white;
+    font-weight: bold;
+   
+    color: rgb(92, 92, 92);
+}
+ 
+.btn{
+    background-color: white;
+    font-weight: bold;
+   
+    color: rgb(92, 92, 92);
+}
+ 
+ #b1{
+    
+     padding: 10px;
+     margin: 60px;
+     text-decoration: none;
+ }
+ #b2{
+    
+     padding: 10px;
+     margin: 76px;
+     text-decoration: none;
+    
+ }
+ #b3{
+     
+     padding: 10px;
+     margin: 24px;
+     text-decoration: none;
+    
+ }
+ #b4{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 90px;
+ }
+ #b5{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 56px;
+ }
+ #b6{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 90px;
+ }
+ #b7{
+     
+     padding: 10px;
+     text-decoration: none;
+     margin: 26px;
+ }
+
+ .btn1{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.btn1:hover{
+    border: none;
+    background-color: rgb(71, 67, 67);
+}
+
+#a1{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 79px;
+   text-decoration: none;
+  
+}
+#a2{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 68px;
+   text-decoration: none;
+  
+}
+#a3{
+   border: 2px solid black;
+   padding: 10px;
+   margin: 80px;
+   text-decoration: none;
+  
+}
+#a4{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 71px;
+}
+#a5{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 71px;
+}
+#a6{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 80px;
+}
+#a7{
+   border: 2px solid black;
+   padding: 10px;
+   text-decoration: none;
+   margin: 72px;
+}
